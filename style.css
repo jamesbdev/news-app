@@ -1,0 +1,23 @@
+article {
+    width: 50%;
+    display: flex;
+    margin: 2em auto;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.article-container {
+    width: 50%;
+    margin: 2em auto;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: arial;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
