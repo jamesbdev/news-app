@@ -76,6 +76,13 @@ const articles = [
     summary.appendChild(summaryTextNode);
     //append summary to container
     articleContainer.appendChild(summary);
+    //add time
+    const time = document.createElement('p');
+    const timeInfo = articles[i]["article"].time;
+    const timeTextNode = document.createTextNode(timeInfo);
+    time.appendChild(timeTextNode);
+    articleContainer.appendChild(time);
+
   } 
 
 
