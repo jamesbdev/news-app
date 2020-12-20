@@ -10,6 +10,24 @@ article {
     width: 50%;
     margin: 2em auto;
     text-align: center;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.article-container section {
+    margin: 0 20px;
+    width: 40%;
+}
+
+@media (max-width: 750px) {
+    .article-container section {
+        width: 80%;
+    }
+
+    .article-container {
+        width: 90%;
+    }
 }
 
 h1 {
