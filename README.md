@@ -1,3 +1,3 @@
 # news-app
 
-This is a vanilla javascript homework
+This is a vanilla JavaScript homework
